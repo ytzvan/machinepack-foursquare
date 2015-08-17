@@ -1,0 +1,34 @@
+{
+  "name": "machinepack-foursquare",
+  "version": "1.0.0",
+  "description": "Communicate with the Foursquare API to get venues, ID's, check-ins, etc",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "Foursquare",
+    "machines",
+    "machinepack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "machine": "^10.0.0"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^2.0.0"
+  },
+  "machinepack": {
+    "friendlyName": "Foursquare",
+    "machineDir": "machines/",
+    "machines": [
+      "say-hello",
+      "get-venue",
+      "list-venues"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ytzvan/machinepack-foursquare.git"
+  }
+}
