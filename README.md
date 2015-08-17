@@ -6,7 +6,7 @@
 
 ### [Docs](http://node-machine.org/machinepack-foursquare) &nbsp; [Browse other machines](http://node-machine.org/machinepacks) &nbsp;  [FAQ](http://node-machine.org/implementing/FAQ)  &nbsp;  [Newsgroup](https://groups.google.com/forum/?hl=en#!forum/node-machine)
 
-Communicate with the Foursquare API to get venues, ID's, check-ins, etc
+Communicate with the Foursquare API to list venues, get reviews, check-ins, etc
 
 
 ## Installation &nbsp; [![NPM version](https://badge.fury.io/js/machinepack-foursquare.svg)](http://badge.fury.io/js/machinepack-foursquare) [![Build Status](https://travis-ci.org/mikermcneil/machinepack-foursquare.png?branch=master)](https://travis-ci.org/mikermcneil/machinepack-foursquare)
@@ -17,7 +17,7 @@ $ npm install machinepack-foursquare
 
 ## Usage
 
-For the latest usage documentation, version information, and test status of this module, see <a href="http://node-machine.org/machinepack-foursquare" title="Communicate with the Foursquare API to get venues, ID's, check-ins, etc (for node.js)">http://node-machine.org/machinepack-foursquare</a>.  The generated manpages for each machine contain a complete reference of all expected inputs, possible exit states, and example return values.  If you need more help, or find a bug, jump into [Gitter](https://gitter.im/node-machine/general) or leave a message in the project [newsgroup](https://groups.google.com/forum/?hl=en#!forum/node-machine).
+For the latest usage documentation, version information, and test status of this module, see <a href="http://node-machine.org/machinepack-foursquare" title="Communicate with the Foursquare API to list venues, get reviews, check-ins, etc (for node.js)">http://node-machine.org/machinepack-foursquare</a>.  The generated manpages for each machine contain a complete reference of all expected inputs, possible exit states, and example return values.  If you need more help, or find a bug, jump into [Gitter](https://gitter.im/node-machine/general) or leave a message in the project [newsgroup](https://groups.google.com/forum/?hl=en#!forum/node-machine).
 
 ## About  &nbsp; [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/node-machine/general?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -27,5 +27,4 @@ Learn more at <a href="http://node-machine.org/implementing/FAQ" title="Machine 
 
 ## License
 
-MIT &copy; 2015 contributors
-
+MIT &copy; 2015 Ytzvan Mastino
