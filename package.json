@@ -1,6 +1,6 @@
 {
   "name": "machinepack-foursquare",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Communicate with the Foursquare API to list venues, get reviews, check-ins, etc",
   "scripts": {
     "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
