@@ -22,7 +22,6 @@
     "friendlyName": "Foursquare",
     "machineDir": "machines/",
     "machines": [
-      "say-hello",
       "get-venue",
       "list-venues"
     ]
