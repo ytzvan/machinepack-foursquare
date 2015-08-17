@@ -58,11 +58,9 @@ module.exports = {
 
 
     var url = "https://api.foursquare.com/v2/venues/"+id+"?client_id="+client_id+"&client_secret="+client_secret+"&v="+version;
-    console.log(url);
     https.get(url, function(res) {
-      console.log("Got response: " + res.statusCode);
     }).on('error', function(e) {
-      console.log("Got error: " + e.message);
+      return exits.error(e.message);
     });
     https.get(url, function(res) {
       var data = '';
@@ -78,8 +76,7 @@ module.exports = {
         };
       });
     }).on('error', function(e) {
-      console.log("Got error: " + e.message);
-       return exits.error(e);
+       return exits.error(e.message);
     });
   }
 };
